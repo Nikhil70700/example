@@ -1,0 +1,94 @@
+html {
+    box-sizing: border-box;
+
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+:root {
+    --light-gray: #6c8fcd;
+
+}
+
+.input-section {
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.todo-input {
+    flex-basis: 60%;
+}
+
+.list-todo-heading>div {
+    font-weight: bold;
+    font-size: 1.5rem;
+
+    margin-top: 2rem;
+}
+
+.todo-no {
+    flex-basis: 3%;
+}
+
+.todo-details {
+    flex-basis: 55%;
+
+}
+
+.todo-status {
+    flex-basis: 10%;
+}
+
+.todo-actions {
+    flex-basis: 15%;
+}
+
+.todo-actions button {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+
+.todo-item {
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+    margin-top: -1rem;
+
+}
+
+.text-center {
+    font-size: 2rem;
+    /* border-radius: 50px;
+    background-color: #4b484da3; */
+    padding-bottom: 1%;
+    margin-left: 36%;
+    margin-right: 50%;
+
+}
+
+.text-center {
+    margin-top: 1rem;
+    height: 4.5rem;
+    width: 25%;
+    background-position: ceter;
+   
+}
+
+.text.center,h1{
+    font-size: 2rem;
+    font-weight: bolder;
+    /* color: #00a400; */
+    background-image: url(pexels-abhi31-13214707.jpg);
+    background-size:cover ;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.todo-app{
+    background-color:aliceblue;
+}
+
